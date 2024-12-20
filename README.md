@@ -37,7 +37,7 @@ ros2 launch rl_fra2mo_description fra2mo_explore.launch.py
 
 ## Visualization 
 
-To visualize the exploration in RViz + rqt_image_view:
+To visualize the exploration in RViz:
 
 ```
 ros2 launch rl_fra2mo_description display_fra2mo.launch.py 
@@ -84,6 +84,11 @@ ros2 run rl_fra2mo_description follow_waypoints.py --mode test_explore
 ```
 
 ### Approaching Obstacle 9
+Open `rqt_image_view`, by entering
+```
+ros2 run rqt_image_view rqt_image_view
+```
+and select the `/aruco_single/result` to detect the ArUco marker.
 
 Make the robot approach obstacle 9 to detect the ArUco marker:
 
