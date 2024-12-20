@@ -168,7 +168,7 @@ def main():
             now = navigator.get_clock().now()
             if now - nav_start > Duration(seconds=600):
                 navigator.cancelTask()
-            i += 1
+        i += 1
 
     result = navigator.getResult()
     if result == TaskResult.SUCCEEDED:
