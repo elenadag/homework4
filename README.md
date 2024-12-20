@@ -91,7 +91,7 @@ Make the robot approach obstacle 9 to detect the ArUco marker:
 ros2 run rl_fra2mo_description follow_waypoints.py --mode obstacle_09
 ```
 
-To publish the pose of the ArUco marker as a tf, with respect to the map frame,
+To publish the pose of the ArUco marker as a tf, with respect to the map frame:
 ```
 ros2 run rl_fra2mo_description aruco_map_tf
 ```
