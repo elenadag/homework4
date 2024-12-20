@@ -1,4 +1,4 @@
-# RL Fra2mo Description
+# Homework 4
 
 This repository contains the ROS 2 packages for simulating and controlling the `rl_fra2mo` robot, including navigation, exploration, visualization, and marker detection. Follow the instructions below to set up and use the project.
 
